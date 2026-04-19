@@ -3,6 +3,23 @@
     <Project Path="MudBlazor.Analyzers.CodeFixes/MudBlazor.Analyzers.CodeFixes.csproj" />
     <Project Path="MudBlazor.Analyzers/MudBlazor.Analyzers.csproj" />
   </Folder>
+  <Folder Name="/Application/" />
+  <Folder Name="/Application/Client/">
+    <Project Path="../../EASYAPP/src/EasyApp/EasyApp.csproj" />
+  </Folder>
+  <Folder Name="/Application/Data/">
+    <Project Path="EasyAppDB/EasyAppDB.csproj" Id="7da81742-946e-4ae4-98bf-8e8c24b2f91a" />
+  </Folder>
+  <Folder Name="/Application/Data/Repository/">
+    <File Path="UnitOfWork.cs" />
+  </Folder>
+  <Folder Name="/Application/Data/Repository/IRepository/">
+    <File Path="IUnitOfWork.cs" />
+  </Folder>
+  <Folder Name="/Application/Server/">
+    <Project Path="HR/HR.csproj" Id="0d3009fe-f67d-49d0-9860-e5ef76674cb1" />
+  </Folder>
+  <Folder Name="/Application/Shared/" />
   <Folder Name="/docs/">
     <Project Path="MudBlazor.Docs.Compiler/MudBlazor.Docs.Compiler.csproj" />
     <Project Path="MudBlazor.Docs.Server/MudBlazor.Docs.Server.csproj" />
